@@ -31,7 +31,7 @@ public:
         int max = INT_MIN;
         for (int i = 0; i < size; i++)
         {
-            if (max > arr[i])
+            if (max < arr[i])
             {
                 max = arr[i];
             }
