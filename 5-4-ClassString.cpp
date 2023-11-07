@@ -68,6 +68,5 @@ int main(){
     s1.display();
     reverse(s1);
     s1.display();
-    copy(s1,s2);
 return 0;
 }
